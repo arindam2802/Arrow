@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Arrow Internship Program</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Arrow</h2>
+      <div class="toggle"></div>
+    </header>
+    
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2>Arrow</h2>
+      <h3>Internship and Training Program</h3>
+      <p>Upgrade Your Life To A New Future</p>
+      <a href="index3.html">Sign Up</a>
+
+    </div>
+    <ul class="social">
+      <li>
+        <a href="#"><img src="facebook.png" alt=""/></a>
+      </li>
+      <li>
+        <a href="#"><img src="twitter.png" alt=""/></a>
+      </li>
+      <li>
+        <a href="#"><img src="instagram.png" alt=""/></a>
+      </li>
+
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="index1.html">Sign In</a></li>
+      <li><a href="#">Course</a></li>
+     
+
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+    menuToggle.addEventListener('click', function() {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+
+    })
+  </script>
+</body>
+</html>

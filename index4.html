@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="imagein/logo.png">
+  <title>Arrow Internship Program</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Courses</h2>
+      <div class="toggle"></div>
+    </header>
+    
+    <div class="overlay"></div>
+
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="index1.html">Sign In</a></li>
+      <li><a href="#">Course</a></li>
+     
+
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+    menuToggle.addEventListener('click', function() {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+
+    })
+  </script>
+</body>
+</html>
